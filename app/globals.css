@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.navbtn button {
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.navbtn button:hover {
+    background-color: black;
+    color: white;
+}
+
+.nxtbtn {
+    border: 2px solid gray;
+    padding: 0.5vmax;
+}
+
+.nxtbtn:hover {
+    border-color: black;
+}
+
+.rimgaa img {
+    transition: transform 0.3s;
+}
+
+.rimgaa img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.csize div:hover {
+    border-color: rgb(248, 160, 175);
+}
+
+.topnav a:hover {
+    color: rgb(238, 73, 101);
+}
+
+#mobile-view1 {
+    display: none; /* Hide on larger screens (laptop view) */
+}
+
+#addtoBag:hover{
+    background-color: rgb(248, 158, 173);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    #mobile-view1 {
+        display: block;
+    }
+    .mobilev {
+        flex-direction: column;
+    }
+    .mobsidbar {
+        display: none;
+    }
+    .mobpage2 {
+       display: none;
+    }
+    .card {
+        flex-direction: row;
+    }
+    .mobright {
+        flex-direction: column;
+    }
+    .topnav {
+        display: none;
+    }
+    #navBar a:hover{
+        color: rgb(239, 74, 101);
+      
+    }
+    #navBar a{
+        color: white;
+      
+    }
+    .productPage{
+        flex-direction: column;
+    }
+    .productCat{
+        width: 100%;
+    }
+    .navMainBtn{
+        flex-direction: column;
+    }
+    .mainProduct{
+        width: 100%;
+    }
+    .rimgaa{
+        width: 100%;
+        height: 90%;
+    }
+    .rimgaaInner1{
+        height: 40%;
+        
+    }
+    .rimgaaInner2{
+        height: 50%;
+    }
+    .rating{
+        width: 100%;
+    }
+    .star{
+        width: 50%;
+    }
+    .buyp{
+        width: 100%;
+    }
+    .buyp1{
+        width: 50%;
+        height: 5vmax;
+    }
+    .buyp2{
+        width: 50%;
+        height: 5vmax;
+    }
+    .pfotter{
+        margin-top: 100vh;
+    }
+    .moblevInner1{
+        width: 100%;
+        
+    }
+    .moblevInner2{
+        width: 100%;
+        margin-top: 5rem;
+
+    }
+  
+    
+    
+   
+}
